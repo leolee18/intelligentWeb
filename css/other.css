@@ -1,0 +1,52 @@
+
+.sen-yj-img{
+	position: relative;
+	width: 1200px;
+	height: 400px;
+	display: block;
+	margin: -10px auto 20px;
+}
+
+
+
+
+.sen-yy-img{
+	position: relative;
+	width: 1200px;
+	height: 400px;
+	display: block;
+	margin: -10px auto 20px;
+}
+
+
+
+.sen-fa-bn{
+	position: relative;
+	width: 1220px;
+	display: block;
+	margin: -40px auto 30px;
+}
+.sen-fa-div{
+	position: relative;
+	width: 1200px;
+	min-height: 100px;
+	display: block;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-fa-div img{
+	display: block;
+	margin: 6px 0 0;
+}
+
+
+.sen-jh-img{
+	position: relative;
+	width: 1220px;
+	height: 400px;
+	display: block;
+	margin: -10px auto 20px;
+}

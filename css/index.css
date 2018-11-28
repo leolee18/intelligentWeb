@@ -1,0 +1,260 @@
+
+
+.sen-ind-tit{
+	position: relative;
+	width: 1200px;
+	height:60px;
+	margin: 20px auto 40px;
+	padding-left:30px;
+	font-size: 35px;
+	color: #4d4b4c;
+	line-height: 60px;
+	box-sizing: border-box;
+}
+.sen-ind-tit-i{
+	position: absolute;
+	width: 3px;
+	height:38px;
+	top:10px;
+	left: 0;
+	border-radius: 6px;
+	border:1px solid #3c92ff;
+	background-color: #cbe3ff;
+}
+
+
+.sen-head{
+	position: relative;
+	width: 100%;
+	height: 330px;
+	background-color: #f3f3f3;
+	z-index: 1;
+}
+.sen-head-i{
+	display: block;
+}
+
+
+.sen-tj-tj{
+	position: relative;
+	width: 1200px;
+	height: 120px;
+	margin: 70px auto 60px;
+	border-top: 3px solid #89b8f0;
+	box-shadow:0 0 10px #ccc;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-tj-tj-lin{
+	position: absolute;
+	height: 75px;
+	width: 1px;
+	background-color: #d2d2d2;
+}
+.sen-tj-tj-tex{
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	color: #535353;
+}
+.sen-tj-tj-tex span{
+	font-size: 30px;
+	color: #000;
+}
+
+
+
+
+.sen-mcp-cp{
+	position: relative;
+	width: 1220px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-mcp-one{
+	position: relative;
+	width: 588px;
+	height: 700px;
+	margin: 10px 0;
+	box-shadow:0 0 10px #ccc;
+	background-color: #fff;
+}
+.sen-mcp-one-i{
+	position: relative;
+	width: 588px;
+	height: 450px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background:url('../imgs/cp_bg.png') left bottom repeat-x;
+}
+.sen-mcp-one-t{
+	position: absolute;
+	width: 100%;
+	bottom: 30px;
+	font-size: 24px;
+	color: #727272;
+	line-height: 40px;
+	text-align: center;
+}
+.sen-mcp-one-t span{
+	font-size: 35px;
+	color: #424040;
+	line-height: 90px;
+}
+
+
+.sen-mfu-top{
+	height: 10px;
+}
+.sen-mfu-all{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-mfu-one{
+	position: relative;
+	width: 285px;
+	height: 405px;
+	background-color: #fff;
+	box-shadow:0 0 10px #ccc;
+}
+.sen-mfu-one-i{
+	position: relative;
+	width: 100%;
+	height: 190px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.sen-mfu-one-t{
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	bottom: 30px;
+	font-size: 20px;
+	color: #727272;
+	line-height: 40px;
+	text-align: center;
+}
+.sen-mfu-one-t span{
+	font-size: 30px;
+	color: #424040;
+	line-height: 70px;
+}
+
+.sen-mlc-all{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-mlc-all img{
+	position: relative;
+	width: 50%;
+	display: block;
+}
+
+
+.sen-mkh-one{
+	position: relative;
+	width: 1200px;
+	display: flex;
+	flex-direction:column;
+	background-color: #fff;
+	box-shadow:0 0 10px #ccc;
+	margin: 30px auto;
+	padding: 20px 40px 40px;
+	box-sizing: border-box;
+	font-size: 24px;
+	color: #727272;
+	line-height: 35px;
+}
+.sen-mkho-tit{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	left: -10px;
+	align-self:flex-start;
+	font-size: 30px;
+	color: #000;
+	line-height: 50px;
+}
+.sen-mkho-kh{
+	position: relative;
+	width: 90%;
+	padding-left: 90px;
+	min-height: 80px;
+	margin-top: 20px;
+	align-self:flex-start;
+	box-sizing: border-box;
+}
+.sen-mkho-kh-i{
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+}
+.sen-mkho-kh-t{
+	padding: 25px;
+	display: inline-block;
+	border-radius: 40px 40px 40px 0/40px 40px 40px 0;
+	background-color: #eee;
+}
+.sen-mkho-kf{
+	position: relative;
+	width: 90%;
+	min-height: 80px;
+	padding-right: 90px;
+	margin-top: 20px;
+	align-self:flex-end;
+	box-sizing: border-box;
+	text-align: right;
+}
+.sen-mkho-kf-i{
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+}
+.sen-mkho-kf-t{
+	right: 0;
+	padding: 25px;
+	display: inline-block;
+	border-radius: 40px 0 40px 40px/40px 0 40px 40px;
+	text-align: left;
+	background-color: #eee;
+}
+
+
+.sen-mhz-ht{
+	position: relative;
+	font-size: 30px;
+	color: #000;
+	line-height: 50px;
+	text-align: center;
+}
+.sen-mhz-logo{
+	position: relative;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-mhz-logo img{
+	position: relative;
+	width: 33.3%;
+	display: block;
+}
+.sen-mhz-yd{
+	position: relative;
+	display: block;
+	margin: 100px auto 40px;
+}
