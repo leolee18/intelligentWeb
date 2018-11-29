@@ -1,9 +1,9 @@
 html{height:100%;font-size:14px}
 body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-family:SimHei,Arial,Helvetica,sans-serif}
-.main{position:relative;width:1280px;height:720px;margin:0 auto;overflow:hidden;z-index:0;}
 
 .sen-indh{
 	position: relative;
+	min-width: 1220px;
 	width: 100%;
 	padding: 40px 0 60px;
 	z-index: 0;
@@ -11,9 +11,11 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 }
 .sen-indb{
 	position: relative;
+	min-width: 1220px;
 	width: 100%;
 	padding: 40px 0 60px;
 	z-index: 0;
+	margin: 0 auto;
 	background-color: #fff;
 }
 .sen-cen{
@@ -90,6 +92,8 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 
 
 .foot-iframe{
+	position: relative;
+	min-width: 1220px;
 	width: 100%;
 	height: 360px;
 	background-color: #e9e9e9;
