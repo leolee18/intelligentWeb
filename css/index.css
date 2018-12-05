@@ -27,13 +27,28 @@
 	position: relative;
 	min-width: 1220px;
 	width: 100%;
-	height: 330px;
-	background-color: #f3f3f3;
-	z-index: 1;
+	background:url('../imgs/ind_hbg.png') left bottom/100% auto repeat-y;
+	z-index: 0;
 }
-.sen-head-i{
+.sen-head-d{
 	width: 100%;
+	height: 780px;
+}
+.sen-head-dz{
+	position: absolute;
+	width: 583px;
+	top: 200px;
+	left: -300px;
 	display: block;
+	opacity: 0;
+}
+.sen-head-dt{
+	position: absolute;
+	width: 652px;
+	top: 150px;
+	right: 0;
+	display: block;
+	opacity: 0;
 }
 
 
@@ -41,12 +56,13 @@
 	position: relative;
 	width: 1200px;
 	height: 120px;
-	margin: 70px auto 60px;
+	margin: -90px auto 60px;
 	border-top: 3px solid #89b8f0;
 	box-shadow:0 0 10px #ccc;
 	display: flex;
 	justify-content:space-around;
 	align-items:center;
+	background-color: #fff;
 }
 .sen-tj-tj-lin{
 	position: absolute;

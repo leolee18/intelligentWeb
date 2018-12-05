@@ -7,6 +7,7 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 	width: 100%;
 	padding: 40px 0 60px;
 	z-index: 0;
+	margin: 0 auto;
 	background-color: #f3f3f3;
 }
 .sen-indb{
@@ -27,7 +28,6 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 	position: relative;
 	width: 100%;
 	height: 70px;
-	background-color: #fff;
 	z-index: 0;
 }
 .sen-dh-f{
@@ -95,6 +95,6 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 	position: relative;
 	min-width: 1220px;
 	width: 100%;
-	height: 360px;
+	height: 210px;
 	background-color: #e9e9e9;
 }
