@@ -42,12 +42,13 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 .sen-dh-logo{
 	position: absolute;
 	display: block;
+	width: 200px;
 	left: 10px;
 	top: 22px;
 }
 .sen-dh-ul{
 	position: absolute;
-	width: 660px;
+	width: 670px;
 	height: 50px;
 	right: 10px;
 	top: 9px;
@@ -56,8 +57,8 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 	list-style-type:none;
 	display: flex;
 	justify-content:space-between;
-	font-size: 20px;
-	color: #535353;
+	font-size: 18px;
+	color: #757575;
 	line-height: 50px;
 	letter-spacing:2px;
 }
@@ -72,7 +73,7 @@ body{position:relative;padding:0;margin:0;width:100%;overflow-x:hidden;font-fami
 }
 .sen-dh-ul a{
 	text-decoration:none;
-	color: #535353;
+	color: #757575;
 }
 .sen-dh-lin{
 	position: absolute;

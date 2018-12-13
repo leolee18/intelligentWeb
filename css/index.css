@@ -32,11 +32,11 @@
 }
 .sen-head-d{
 	width: 100%;
-	height: 780px;
+	height: 630px;
 }
 .sen-head-dz{
 	position: absolute;
-	width: 583px;
+	width: 470px;
 	top: 200px;
 	left: -300px;
 	display: block;
@@ -44,7 +44,7 @@
 }
 .sen-head-dt{
 	position: absolute;
-	width: 652px;
+	width: 500px;
 	top: 150px;
 	right: 0;
 	display: block;
@@ -58,7 +58,7 @@
 	height: 120px;
 	margin: -90px auto 60px;
 	border-top: 3px solid #89b8f0;
-	box-shadow:0 0 10px #ccc;
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
 	display: flex;
 	justify-content:space-around;
 	align-items:center;
@@ -96,9 +96,9 @@
 .sen-mcp-one{
 	position: relative;
 	width: 588px;
-	height: 850px;
+	height: 740px;
 	margin: 10px 0;
-	box-shadow:0 0 10px #ccc;
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
 	background-color: #fff;
 }
 .sen-mcp-one-i{
@@ -129,6 +129,12 @@
 	line-height: 90px;
 	text-align: center;
 }
+.sen-mcp-one-ti{
+	position: absolute;
+	display: block;
+	width: 588px;
+	top: 470px;
+}
 
 
 .sen-mfu-top{
@@ -146,7 +152,7 @@
 	width: 285px;
 	height: 405px;
 	background-color: #fff;
-	box-shadow:0 0 10px #ccc;
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .sen-mfu-one-i{
 	position: relative;
@@ -188,13 +194,32 @@
 }
 
 
+
+.sen-mkh-new{
+	position: relative;
+	width: 1220px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;
+}
+.sen-mkh-new-i{
+	position: relative;
+	width: 605px;
+}
+.sen-mkh-new-i2{
+	position: relative;
+	width: 1216px;
+}
+
 .sen-mkh-one{
 	position: relative;
 	width: 1200px;
 	display: flex;
 	flex-direction:column;
 	background-color: #fff;
-	box-shadow:0 0 10px #ccc;
+	box-shadow:0 0 10px rgba(0,0,0,0.2);
 	margin: 30px auto;
 	padding: 20px 40px 40px;
 	box-sizing: border-box;
