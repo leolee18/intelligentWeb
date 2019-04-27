@@ -154,13 +154,13 @@
 }
 .sen-ab-fzo{
 	position: relative;
-	width: 385px;
+	width: 300px;
 	height: 100%;
 }
 .sen-ab-fzot1{
 	position: relative;
-	width: 290px;
-	height: 290px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 	overflow: hidden;
 	background-color: #eee;
@@ -175,7 +175,7 @@
 	align-items: center;
 }
 .sen-ab-fzot1 span{
-	font-size: 40px;
+	font-size: 35px;
 	color: #ec595f;
 }
 .sen-ab-fzot2{
@@ -196,4 +196,11 @@
 	width: 1200px;
 	display: block;
 	margin: 10px auto;
+}
+.sen-ab-rylx{
+	width: 1200px;
+	height: 400px;
+	display: block;
+	margin: 10px auto;
+	background-color: #eee;
 }
